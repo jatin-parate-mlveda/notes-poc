@@ -2,7 +2,15 @@
   "name": "notes-poc",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "engines": {
+    "node": "^v16.18.0"
+  },
+  "scripts": {
+    "serve:admin": "nx serve admin",
+    "serve:storefront": "nx serve storefront",
+    "build:admin": "nx run admin:build:production",
+    "build:storefront": "nx run storefront:build:production"
+  },
   "private": true,
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
