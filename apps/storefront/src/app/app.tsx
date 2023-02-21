@@ -1,15 +1,14 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import {Common} from "@notes-poc/common";
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="storefront" />
-
+    <div className={styles.container}>
+      <h1>Store front</h1>
+      <hr />
+      <Common />
       <div />
-    </>
+    </div>
   );
 }
 

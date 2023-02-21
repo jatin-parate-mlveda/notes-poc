@@ -52,6 +52,7 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "storefront:build",
+        "port": 3001,
         "hmr": true
       },
       "configurations": {
