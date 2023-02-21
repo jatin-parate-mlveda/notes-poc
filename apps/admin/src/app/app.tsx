@@ -1,23 +1,21 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
-
-import { Route, Routes, Link } from 'react-router-dom';
+import {Link, Route, Routes} from 'react-router-dom';
+import {Common} from "@notes-poc/common";
 
 export function App() {
   return (
     <>
-      <NxWelcome title="admin" />
+      <h1>Admin</h1>
+      <hr/>
+      <Common name='to Admin panel'/>
 
-      <div />
+      <div/>
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
-      <br />
-      <hr />
-      <br />
+      <br/>
+      <hr/>
+      <br/>
       <div role="navigation">
         <ul>
           <li>

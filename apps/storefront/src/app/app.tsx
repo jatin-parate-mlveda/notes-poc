@@ -6,7 +6,7 @@ export function App() {
     <div className={styles.container}>
       <h1>Store front</h1>
       <hr />
-      <Common />
+      <Common name='to storefront' />
       <div />
     </div>
   );
